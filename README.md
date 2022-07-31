@@ -5,6 +5,7 @@
 *[Python road map link](https://roadmap.sh/python)*
 
 ### Webserver
+  - Go back over socket server learnings from the chat app we made 
   - Build a webserver from scratch and try and understand how the server works underneath e.g. HTTP, TCP, websockets, network layer etc
     - Build this in flask
     - Build this in django
@@ -14,7 +15,7 @@
 - Learn about asyncio and what we can do with it. Basic assumption: it's the same as Promises in JS - lets you write async code, so you could write code like e.g. time.sleep(2), add asyncio snytax to it and it will run other code below it (just like a promise would).
 
 ### Under the python hood
-- Learn about dunder/magic methods e.g. __name__, __file__. What are they/what is their purpose, what are the actual methods available
+- Learn about dunder/magic methods e.g. __ name __, __ file __. What are they/what is their purpose, what are the actual methods available
 - Refresh/Get an understanding on decorators
 - Learn more about inbuilt python libraries e.g. collections, types etc
 
