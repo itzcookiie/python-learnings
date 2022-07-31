@@ -16,9 +16,11 @@
 ### Under the python hood
 - Learn about dunder/magic methods e.g. __name__, __file__. What are they/what is their purpose, what are the actual methods available
 - Refresh/Get an understanding on decorators
+- Learn more about inbuilt python libraries e.g. collections, types etc
 
 ### Data structures & algorithms
 - Learn about different general data structures e.g. heaps, stacks, queues and try and implement each one
 
 ### Testing
-- Build a mini app and build the app using TDD i.e. writing tests first
+- Build a mini app and build the app using TDD unittest i.e. writing tests first
+  - Build the same app using pytest
