@@ -1,8 +1,12 @@
+from pathlib import Path
 import socket
+
 
 host = ''
 port = 3000
 address = (host, port)
+
+parent = Path(__file__).parent
 
 server = socket.socket()
 server.bind(address)
@@ -16,10 +20,8 @@ with server:
             print(response)
             url_path = response.split(' ')[1]
 
-            if url_path == '/' or url_path == '/favicon.ico':
-                file_path = 'index.html'
-            else:
-                file_path = f'{url_path[1:]}.html'
+            file_name = '/index.html'
+            file_path = f'{parent}{url_path}{file_name}'
 
             try:
                 with open(file_path) as file:
